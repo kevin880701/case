@@ -12,7 +12,7 @@ const Socials = () => {
 					<a href={social.url} target="_blank" rel="noreferrer">
 						<div className="social-icon">
 							<img
-								src={social.logo}
+								src={social.logo.startsWith("..") ? social.logo.replace("..", process.env.PUBLIC_URL || "") : social.logo}
 								alt={social.name}
 								className="social-icon-img"
 							/>
