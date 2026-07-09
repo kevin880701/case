@@ -19,7 +19,7 @@ const INFO = {
 		},
 		{
 			name: "Line",
-			url: "https://line.me/ti/p/gWsAUy83Kv",
+			url: "https://line.me/ti/p/dmjCrwa8Pt",
 			logo: "../icons/line-logo.png",
 		},
 		{
